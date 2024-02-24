@@ -12,7 +12,7 @@ hide_title: true
 
 这些 API 完全是自动响应的，这意味着即使没有[`Proxy`](configuration.md#limitations-without-proxy-support)的支持，使用 `set` 声明新的属性，并使用 `values` 或 `keys` 迭代它们，MobX也可以检测到新的属性声明。
 
-使用`values`、`keys`和`entries`的另一个好处是它们返回数组而不是迭代器。例如，我们可以直接直接在结果上调用`.map(fn)`。
+使用`values`、`keys`和`entries`的另一个好处是它们返回数组而不是迭代器。例如，我们可以直接在结果上调用`.map(fn)`。
 
 话虽如此， 一个典型的项目几乎没有理由使用这些API。
 
